@@ -1,5 +1,5 @@
 const { createConfig } = require("webpack-blocks");
-const elm = require("./index");
+const { elm } = require("./index");
 const elmConfig = options => createConfig([elm(options)]);
 
 test("bare", () => {
