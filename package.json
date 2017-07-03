@@ -1,0 +1,21 @@
+{
+  "name": "elm-blocks",
+  "version": "0.0.1",
+  "description": "A webpack block that adds Elm support",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": ["elm", "webpack"],
+  "author": "Paweł Pacana",
+  "license": "MIT",
+  "repository": "pawelpacana/elm-blocks",
+  "dependencies": {
+    "elm-hot-loader": "^0.5.4",
+    "elm-webpack-loader": "^4.3.1"
+  },
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "webpack-blocks": "next"
+  }
+}
